@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>9.6. Работа с HTTP (fetch, async/await). Задание 4</title>
+	<script src="4.js" defer></script>
+	<style>
+		.container {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+		}
+		.mt-1 {
+			margin-top: 1em;
+		}
+		.gallery {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			gap: 1em;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Введите числа от 100 до 300:</h1>
+		<form >
+			<input type="number" id="input-width">
+			<input type="number" id="input-height">
+			<button type="submit" id="button-submit">Отправить</button>
+		</form>
+		<div class="mt-1" id="result-text"></div>
+		<div class="gallery" id="gallery"></div>
+	</div>
+	<br>
+</body>
+</html>
